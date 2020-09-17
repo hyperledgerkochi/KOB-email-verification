@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="/assets/favicon.ico" />
-    <title>British Columbia Email Verification Service</title>
+  <link rel="shortcut icon" href="{% static 'KOB.jpeg' %}" />
+    <title>KochiOrgBook Email Verification Service</title>
     <meta
       name="description"
       content="An email verification service used to issue a verifiable credential asserting that you are the owner of an email address."
@@ -55,13 +55,13 @@
 
               el = document.querySelector('#credential-issued');
               el.style.display = 'block';
-              
+
               el = document.querySelector('#email-placeholder');
               el.textContent = state["email"]
 
               clearInterval(interval)
             }
-            
+
           } catch (e) {
             console.error(e)
           }
@@ -84,19 +84,19 @@
           <a class="navbar-brand" href="/">
             <img
               class="img-fluid d-none d-md-block"
-              src="/assets/images/bcid-logo-rev-en.svg"
-              width="177"
-              height="44"
-              alt="B.C. Government Logo"
+              src="/assets/images/KOB.jpeg"
+              width="100"
+              height="20"
+              alt="KOB Logo"
             />
 
-            <img
+          <!--   <img
               class="img-fluid d-md-none"
               src="/assets/images/bcid-symbol-rev.svg"
               width="63"
               height="44"
               alt="B.C. Government Logo"
-            />
+            />-->
           </a>
           <div class="navbar-brand">
             Email Verification Service
@@ -148,9 +148,9 @@
         </div>
       </div>
     </main>
-    <footer class="footer">
+  <!--  <footer class="footer">
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <!-- Navbar content -->
+        Navbar content 
         <div class="container">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -196,7 +196,7 @@
           </ul>
         </div>
       </nav>
-    </footer>
+    </footer>  -->
     <script src="{% static 'js/bcgov_theme.min.js' %}" async defer></script>
     <script src="{% static 'js/verify.js' %}" async defer></script>
   </body>
