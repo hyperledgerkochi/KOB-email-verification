@@ -25,3 +25,12 @@ Open two shell/terminal sessions:
 _Refer to `manage -h` for additional usage information._
 
 Once services are started, visit [http://localhost:8080](http://localhost:8080) to see the app running and visit [http://localhost:8050](http://localhost:8050) to see any outbound mail the app is sending (it won't actually send any email message in the development environment.)
+
+## Stopping
+
+To stop the service:
+
+1.  Open a new terminal
+
+2.  From within the [docker](./docker) folder:
+    -  run `./manage down`
