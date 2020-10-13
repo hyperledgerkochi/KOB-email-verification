@@ -10,7 +10,7 @@ git checkout $branch
 
 mkdir -p build/tmp
 
-zip -r $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip $(ls -d */) *.yml
+zip -r $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip COMPLIANCE.yml $(ls -d */ | grep -v "bin" | grep -v "build") 
 
 cp $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip $HOME/KOB-email-verification/build/tmp/kob-email-$version.zip
 
@@ -29,8 +29,8 @@ git add $HOME/KOB-email-verification/dist/*
 git commit -m "Released the version $version"
 git push origin -f $dist_branch
 
-#checkout back to master
-git checkout master
+#checkout back to test
+git checkout test
 
 
 
