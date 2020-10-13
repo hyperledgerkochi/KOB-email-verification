@@ -1,7 +1,7 @@
 #!/bin/bash
 export KOB_SERVICE="raw.githubusercontent.com"
-KOB_NAMESPACE="asa1997"
-VERSION="taga4"
+KOB_NAMESPACE="{KOB_NAMESPACE:-hyperledgerkochi}"
+VERSION="taga5"
 echo "KOB-EMAIL-VERIFICATION-SERVICE"
 [[ -d $HOME/KOB-email-verification-service ]] && echo "Service already found at $HOME/KOB-email-verification-service" && exit 0
 mkdir -p $HOME/KOB-email-verification-service
@@ -11,4 +11,4 @@ curl -sL --location --progress-bar "${KOB_SERVICE}/${KOB_NAMESPACE}/KOB-email-ve
 echo "Unpacking files...."
 unzip $HOME/kob-email.zip -d $HOME/KOB-email-verification-service
 [[ "$?" == "0" ]] && echo "Success"
-[[ -f $HOME/kob-email-latest.zip ]] && rm $HOME/kob-email.zip
+[[ -f $HOME/kob-email.zip ]] && rm $HOME/kob-email.zip
