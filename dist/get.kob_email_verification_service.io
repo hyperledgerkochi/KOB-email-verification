@@ -1,7 +1,7 @@
 #!/bin/bash
 export KOB_SERVICE="raw.githubusercontent.com"
 KOB_NAMESPACE="asa1997"
-VERSION="taga7"
+VERSION="taga8"
 echo "KOB-EMAIL-VERIFICATION-SERVICE"
 [[ -d $HOME/KOB-email-verification-service ]] && echo "Service already found at $HOME/KOB-email-verification-service" && exit 0
 mkdir -p $HOME/KOB-email-verification-service
@@ -14,4 +14,5 @@ if [[ "$?" == "0" ]]; then
     echo "Success"
 else
     echo "Failed unpacking files. Try again later."
+fi
 [[ -f $HOME/kob-email.zip ]] && rm $HOME/kob-email.zip
