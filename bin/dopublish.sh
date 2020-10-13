@@ -10,7 +10,7 @@ git checkout $branch
 
 mkdir -p build/tmp
 
-zip -r $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip COMPLIANCE.yaml $(ls -d */ | grep -v "bin" | grep -v "build") -x "$(ls -d */ | grep "scripts")/tmpl"
+zip -r $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip COMPLIANCE.yaml -x $(ls -d */ | grep -v "bin" | grep -v "build") "$(ls -d */ | grep "scripts")/tmpl"
 # zip --delete $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip "scripts/tmpl"
 zip --delete $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip "scripts/*.io"
 cp $HOME/KOB-email-verification/build/tmp/kob-email-latest.zip $HOME/KOB-email-verification/build/tmp/kob-email-$version.zip
