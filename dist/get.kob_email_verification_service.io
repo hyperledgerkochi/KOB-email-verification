@@ -1,7 +1,7 @@
 #!/bin/bash
 export KOB_SERVICE="raw.githubusercontent.com"
 KOB_NAMESPACE="asa1997"
-VERSION="taga14"
+VERSION="taga15"
 echo "KOB-EMAIL-VERIFICATION-SERVICE"
 [[ -d $HOME/KOB-email-verification-service ]] && echo "Service already found at $HOME/KOB-email-verification-service" && exit 0
 mkdir -p $HOME/KOB-email-verification-service
