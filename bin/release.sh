@@ -2,7 +2,7 @@
 
 version=$1
 
-branch="Release"
+branch="release"
 
 [[ -z $version ]] && echo "Usage: release.sh <version>" && exit 0
 
