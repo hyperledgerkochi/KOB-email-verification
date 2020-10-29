@@ -1,7 +1,7 @@
 #!/bin/bash
 
 version=$1
-branch="Release"
+branch="release"
 dist_branch="dist"
 
 [[ -z $version ]] && echo "Usage: dopublish.sh <version>" && exit 0
