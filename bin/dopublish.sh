@@ -1,7 +1,7 @@
 #!/bin/bash
 
 version=$1
-branch="Release"
+branch="release"
 dist_branch="dist"
 
 [[ -z $version ]] && echo "Usage: dopublish.sh <version>" && exit 0
@@ -28,10 +28,10 @@ mv $HOME/KOB-email-verification/build/tmp/* $HOME/KOB-email-verification/dist/
 # saving changes and pushing
 git add $HOME/KOB-email-verification/dist/*
 git commit -m "Released the version $version"
-git push origin -f $dist_branch
+git push origin -f -u $dist_branch
 
-#checkout back to test
-git checkout test
+#checkout back to master
+git checkout master
 
 
 
