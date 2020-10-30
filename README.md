@@ -16,7 +16,7 @@
 
 Open the terminal and run the below command
 
-    `curl -L https://raw.githubusercontent.com/hyperledgerkochi/KOB-email-verification/dist/dist/get.kob_email_verification_service.io | bash`
+    curl -L https://raw.githubusercontent.com/hyperledgerkochi/KOB-email-verification/dist/dist/get.kob_email_verification_service.io | bash
 
 ## Running
 
