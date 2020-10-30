@@ -12,6 +12,12 @@
 
 `jq` and `ngrok` are available on package manager systems for different platforms such as [Homebrew](https://brew.sh/) (Mac), [Chocolatey](https://chocolatey.org/) (Windows) and various Linux distribution package managers.
 
+## Install the service
+
+Open the terminal and run the below command
+
+    `curl -L https://raw.githubusercontent.com/hyperledgerkochi/KOB-email-verification/dist/dist/get.kob_email_verification_service.io | bash`
+
 ## Running
 
 Open two shell/terminal sessions:
