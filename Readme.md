@@ -22,7 +22,7 @@
  *  This application can generate a lot of interest especially since spam mail has continued to circulate online, with some strategies linking the email to seemingly credible       sources.
  
 ## Contributor
- * Sweta kumari-https://github.com/sweta-dotcom
+ * Sweta kumari -https://github.com/sweta-dotcom
  
 ## Testing The Project
 *  TBD
