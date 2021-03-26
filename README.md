@@ -33,8 +33,9 @@
    
    5. User presents the digital credential and avail third party services.
    
+   ![kob5](https://user-images.githubusercontent.com/61916798/112599250-b372fb00-8e35-11eb-9bb4-517a8c5e4739.png)
    
-  ![kob5](https://user-images.githubusercontent.com/61916798/112599250-b372fb00-8e35-11eb-9bb4-517a8c5e4739.png)
+   The verifier verifies the digital credential and allow the user to avail services.
 ## Contributor
    [Sweta Kumari](https://github.com/sweta-dotcom/KOB-email-verification)
  
