@@ -22,6 +22,7 @@
    2. User recieves digital credential in his/her wallet.
    
    ![st2](https://user-images.githubusercontent.com/61916798/112595891-0e562380-8e31-11eb-995e-552ba7597946.PNG)
+   
    3. User submit his/her email id for availing third party services.
    ![st3](https://user-images.githubusercontent.com/61916798/112594903-9dfad280-8e2f-11eb-92da-9ad0c2398900.PNG)
    
