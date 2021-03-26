@@ -10,9 +10,31 @@
 
 ## Status Of The Project
    Incubation
- 
+   
 ## Solution
    To overcome this problem a blockchain based ledger service marks down an outgoing mail. Using this approach email details (e.g., sender, recipients, timestamp, etc.) are        hashed and saved from any organization using email security gateways. Any organization receiving the mail can check it for authenticity via the blockchain service, thus the      mail cannot be spam. This application can generate a lot of interest especially since spam mail has continued to circulate online, with some strategies linking the email to      seemingly credible sources.
+   
+   Steps to perform Email Verification:
+   1. User reuqests for a digital credential after submitting Email.
+    
+  ![kob1](https://user-images.githubusercontent.com/61916798/112599503-0947a300-8e36-11eb-885a-1b61221f0e05.png)
+
+   2. User recieves digital credential in his/her wallet.
+   
+   ![st2](https://user-images.githubusercontent.com/61916798/112595891-0e562380-8e31-11eb-995e-552ba7597946.PNG)
+   
+   3. User submit his/her email id for availing third party services.
+   
+  ![st3](https://user-images.githubusercontent.com/61916798/112594903-9dfad280-8e2f-11eb-92da-9ad0c2398900.PNG)
+   
+   4. The third party asks for digital credential to verify the ownership of email.
+   
+   ![st4](https://user-images.githubusercontent.com/61916798/112596403-c5eb3580-8e31-11eb-98f2-48911e088721.PNG)
+   
+   5. User presents the digital credential and avail third party services.
+   
+   ![kob5](https://user-images.githubusercontent.com/61916798/112599250-b372fb00-8e35-11eb-9bb4-517a8c5e4739.png)
+
  
 ## Contributor
    [Sweta Kumari](https://github.com/sweta-dotcom/KOB-email-verification)
