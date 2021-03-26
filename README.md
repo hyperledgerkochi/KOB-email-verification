@@ -35,8 +35,7 @@
    
    ![kob5](https://user-images.githubusercontent.com/61916798/112599250-b372fb00-8e35-11eb-9bb4-517a8c5e4739.png)
 
- 
-## Contributor
+ ## Contributor
    [Sweta Kumari](https://github.com/sweta-dotcom/KOB-email-verification)
  
 ## Testing The Project
