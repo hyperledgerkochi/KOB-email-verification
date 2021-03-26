@@ -17,7 +17,7 @@
    Steps to perform Email Verification:
    1. User reuqests for a digital credential after submitting Email.
    
-   ![kob1](https://user-images.githubusercontent.com/61916798/112600893-c25aad00-8e37-11eb-8d75-fd9b6c8df56c.png)
+   ![1](https://user-images.githubusercontent.com/61916798/112602865-3ac26d80-8e3a-11eb-9255-8c8327b0aafc.jpg)
 
    2. User recieves digital credential in his/her wallet.
    
