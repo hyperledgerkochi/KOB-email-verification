@@ -1,0 +1,3 @@
+# Motivation
+   
+Current email security solutions depend on various attributes to reduce the chances that a given email (mail) is likely to be a threat.This is a decentralized, peer-to-peer, proof-of-work, encrypted mail system that uses blockchain technology to conduct email verification. Decentralized Identifier or DIDs refer to a system in which there is no common storage facility available. There might be many users who cannot setup and maintain DIDs themselves.

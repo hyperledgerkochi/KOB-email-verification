@@ -1,0 +1,13 @@
+site_name: KOB Email Verification Service
+theme:
+    name: material
+markdown extensions:
+    - attr_list    
+nav:
+    - Overview: index.md
+    - Motivation: motivation.md
+    - Status of the project: status.md
+    - Solution: solution.md
+    - Running a local instance: run.md
+    - Contributors: contributors.md
+    - License: license.md
