@@ -15,7 +15,7 @@
    To overcome this problem a blockchain based ledger service marks down an outgoing mail. Using this approach email details (e.g., sender, recipients, timestamp, etc.) are hashed and saved from any organization using email security gateways. Any organization receiving the mail can check it for authenticity via the blockchain service, thus the mail cannot be spam. This application can generate a lot of interest especially since spam mail has continued to circulate online, with some strategies linking the email to seemingly credible sources.
    
    Steps to perform Email Verification:
-   1. User reuqests for a digital credential after submitting Email.
+   1. User requests for a digital credential after submitting Email.
    
    ![1](https://user-images.githubusercontent.com/61916798/112602865-3ac26d80-8e3a-11eb-9255-8c8327b0aafc.jpg)
 
