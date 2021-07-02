@@ -36,8 +36,6 @@
    ![kob5](https://user-images.githubusercontent.com/61916798/112599250-b372fb00-8e35-11eb-9bb4-517a8c5e4739.png)
    
    The verifier verifies the digital credential and allow the user to avail services.
-## Contributor
-   [Sweta Kumari](https://github.com/sweta-dotcom/KOB-email-verification)
  
 ## Running a local instance
 
@@ -82,6 +80,8 @@ To stop the service:
 2.  From within the [docker](./docker) folder:
     -  run `./manage down`
 
+## Contributor
+   [Sweta Kumari](https://github.com/sweta-dotcom/KOB-email-verification)
 
 ## Refrences
  *  https://github.com/bcgov/indy-email-verification
