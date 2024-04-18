@@ -12,5 +12,5 @@ sqlparse==0.3.0
 urllib3==1.24.2
 
 # Web Server
-gunicorn>=19.7.1,<20
+gunicorn>=22.0.0,<20
 whitenoise>=3.3.1,<4
